@@ -13,5 +13,5 @@ app.use(cors())
 
 generalRoute(app)
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Express JS listening on port ${port}`)
 })
