@@ -4,7 +4,6 @@
  */
 
 const callbackRoute = require("./callback.route");
-const fetchtest     = require("./fetchtest.route");
 
 const generalRoute = (
     app
@@ -14,7 +13,6 @@ const generalRoute = (
     })
 
     app.get('/callback', callbackRoute);
-    app.post('/fetch-test', fetchtest)
 }
 
 module.exports = generalRoute;
